@@ -14,7 +14,9 @@
     "bootstrap": "^4.1.3",
     "bootstrap-vue": "^2.0.0-beta",
     "cross-env": "^5.2.0",
+    "firebase": "^5.5.9",
     "nuxt": "^2.0.0",
+    "nuxt-fire": "^1.2.1",
     "vuex": "^3.0.1"
   },
   "devDependencies": {

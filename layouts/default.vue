@@ -1,55 +1,77 @@
 <template>
   <div>
-    <nuxt/>
+    <Navbar/>
+      <transition name='slide-left-to-right'>
+      <nuxt/>
+      </transition>
+    <SettingsIcon />
+    <Settings />
   </div>
 </template>
 
 <style>
-html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
+</style>
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
+<script>
+import Navbar from '~/components/OtherComponents/Navbar.vue'
+import SettingsIcon from '~/components/SettingsComponents/SettingsIcon.vue'
+import Settings from '~/components/SettingsComponents/Settings.vue'
 
-.button--green:hover {
+export default {
+  components: {
+    Navbar, SettingsIcon, Settings
+  },
+   transition: 'slide-left-to-right'
+}
+</script>
+
+<style >
+.navbar-dark .navbar-nav .nav-link{
   color: #fff;
-  background-color: #3b8070;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: .5rem 2rem;
+  text-transform: uppercase;
 }
 
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
+body {
+  background: #629460;
+  font-family: 'Raleway' !important;
+
 }
 
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+.min-100vh {
+  min-height: 100vh;
+}
+
+
+
+.slide-left-to-right-enter-active, .slide-left-to-right-leave-active {
+  transition: all .5s
+}
+.slide-left-to-right-enter, .slide-left-to-right-leave-active {
+  opacity: 0;
+  transform: translateX(30%);
+}
+
+.slide-right-to-left-enter-active, .slide-right-to-left-leave-active {
+  transition: all .5s
+}
+.slide-right-to-left-enter, .slide-right-to-left-leave-active {
+  opacity: 0;
+  transform: translateX(-30%);
+}
+
+
+.btn.disabled, .btn:disabled {
+  opacity: 1;
+}
+
+.layout-enter-active, .layout-leave-active {
+  transition: opacity 2s
+}
+.layout-enter, .layout-leave-active {
+  opacity: 0
 }
 </style>

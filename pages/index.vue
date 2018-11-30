@@ -8,6 +8,7 @@
 import Entry from '~/components/EntryViewComponents/Entry.vue'
 
 export default {
+  name: 'EntryPage',
   components: {
     Entry
   }
