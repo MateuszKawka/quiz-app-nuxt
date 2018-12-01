@@ -1,8 +1,12 @@
 const pkg = require('./package')
 
+
+
 module.exports = {
   mode: 'universal',
-
+  /*router: {
+    base: '/quiz-app-nuxt/'
+  },*/
   /*
    ** Headers of the page
    */
