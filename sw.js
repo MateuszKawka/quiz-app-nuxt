@@ -2,10 +2,6 @@ importScripts('/quiz-app-nuxt/_nuxt/workbox.4c4f5ca6.js')
 
 workbox.precaching.precacheAndRoute([
   {
-    "url": "/quiz-app-nuxt/_nuxt/208001378ffd0e6f2a0b.js",
-    "revision": "16b3e762e9a8af31cb34c4ed090e377a"
-  },
-  {
     "url": "/quiz-app-nuxt/_nuxt/4d58220fb2b8632ea98f.js",
     "revision": "0079841d7e96d75f3c67a4d122761b99"
   },
@@ -28,6 +24,10 @@ workbox.precaching.precacheAndRoute([
   {
     "url": "/quiz-app-nuxt/_nuxt/da0f991594cc1e7e5591.js",
     "revision": "37e1f559c7b5611082774cd0a8b4a7db"
+  },
+  {
+    "url": "/quiz-app-nuxt/_nuxt/eff42c94f27f3c82417d.js",
+    "revision": "3f393adb6e6401b175bc347a89302862"
   }
 ], {
   "cacheId": "quiz-app-v2",
