@@ -16,9 +16,12 @@
 
 ## Project Screen Shot(s)
 
-![Main screen](https://github.com/MateuszKawka/quiz-app-nuxt/blob/master/readme/screenshot1.png =250x "Main screen")
+![](https://github.com/MateuszKawka/quiz-app-nuxt/blob/master/readme/screenshot1.png =250x "Main screen")
 
-![Ending screen](https://github.com/MateuszKawka/quiz-app-nuxt/blob/master/readme/screenshot2.png =250x "endindg screen")
+![Ending screen](https://github.com/MateuszKawka/quiz-app-nuxt/blob/master/readme/screenshot2.png =250x)
+
+<img src="https://github.com/MateuszKawka/quiz-app-nuxt/blob/master/readme/screenshot2.png" alt="Ending screen"
+	title="Ending screen" width="200" />
 
 ## Build Setup
 
