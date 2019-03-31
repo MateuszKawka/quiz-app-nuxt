@@ -16,10 +16,10 @@
 
 ## Project Screen Shot(s)
 
-<img src="https://github.com/MateuszKawka/quiz-app-nuxt/blob/master/readme/screenshot1.png" alt="Main screen"
+<img src="https://github.com/MateuszKawka/quiz-app-nuxt/blob/master/readme/screenshot2.png" alt="Main screen"
 	title="Main screen" width="240" />
 
-<img src="https://github.com/MateuszKawka/quiz-app-nuxt/blob/master/readme/screenshot2.png" alt="Ending screen"
+<img src="https://github.com/MateuszKawka/quiz-app-nuxt/blob/master/readme/screenshot1.png" alt="Ending screen"
 	title="Ending screen" width="240" />
 
 ## Build Setup
