@@ -16,9 +16,9 @@
 
 ## Project Screen Shot(s)
 
-![Main screen](https://github.com/MateuszKawka/quiz-app-nuxt/blob/master/readme/screenshot1.png "Main screen")
+![Main screen](https://github.com/MateuszKawka/quiz-app-nuxt/blob/master/readme/screenshot1.png =250x "Main screen")
 
-![Ending screen](https://github.com/MateuszKawka/quiz-app-nuxt/blob/master/readme/screenshot2.png "endindg screen")
+![Ending screen](https://github.com/MateuszKawka/quiz-app-nuxt/blob/master/readme/screenshot2.png =250x "endindg screen")
 
 ## Build Setup
 
@@ -39,5 +39,3 @@ $ yarn run generate
 # unit testing
 $ yarn run unit
 ```
-
-## Reflection
